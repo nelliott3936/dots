@@ -1,5 +1,11 @@
 #!/bin/bash
 
+nohup waybar &
+
+sleep 0.5
+
+killall -SIGUSR1 waybar
+
 # Initialize state variable
 bar_visible=true
 

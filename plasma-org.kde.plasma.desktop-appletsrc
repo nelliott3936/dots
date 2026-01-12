@@ -34,8 +34,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=513
-popupWidth=689
+popupHeight=517
+popupWidth=693
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -45,7 +45,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://browser,applications:firefox-esr.desktop,applications:org.kde.konsole.desktop
+launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://browser,applications:firefox-esr.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -165,7 +165,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][26][General]
-positions={"1366x768":["1","12","desktop:/steam.desktop","0","1"]}
+positions={"1366x768":["1","12","desktop:/steam.desktop","0","0"]}
 sortMode=-1
 
 [Containments][26][Wallpaper][de.unkn0wn.htmlwallpaper][General]
@@ -178,4 +178,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/shimboot-main,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa,desktop:/steam.desktop,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa
+screenMapping=desktop:/steam.desktop,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa,desktop:/shimboot-main,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa
