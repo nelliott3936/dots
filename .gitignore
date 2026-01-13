@@ -20,3 +20,9 @@ evolution/**
 KDE/UserFeedback.conf
 **plasma**
 Blockbench/**
+systemd/**
+session/**
+qtvirtualkeyboard/**
+**plasma**
+libaccounts/**
+autostart/**
