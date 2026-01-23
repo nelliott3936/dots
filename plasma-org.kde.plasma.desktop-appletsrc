@@ -34,8 +34,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=517
-popupWidth=693
+popupHeight=521
+popupWidth=697
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -45,7 +45,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://browser,applications:firefox-esr.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
+launchers=applications:systemsettings.desktop,applications:firefox-esr.desktop,applications:org.kde.discover.desktop,applications:org.kde.konsole.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -58,8 +58,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=436
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][7][Applets][10]
@@ -83,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][14][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][15]
 immutability=1
@@ -93,9 +93,15 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.notifications
 
+[Containments][2][Applets][7][Applets][16][Configuration]
+PreloadWeight=55
+
 [Containments][2][Applets][7][Applets][17]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][2][Applets][7][Applets][17][Configuration]
+PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][17][Configuration][General]
 migrated=true
@@ -112,7 +118,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][21][Configuration]
-PreloadWeight=42
+PreloadWeight=62
 
 [Containments][2][Applets][7][Applets][22]
 immutability=1
@@ -124,6 +130,16 @@ PreloadWeight=55
 [Containments][2][Applets][7][Applets][23]
 immutability=1
 plugin=org.kde.plasma.brightness
+
+[Containments][2][Applets][7][Applets][23][Configuration]
+PreloadWeight=55
+
+[Containments][2][Applets][7][Applets][27]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][2][Applets][7][Applets][27][Configuration]
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][8]
 immutability=1

@@ -2,3 +2,10 @@
 [Default Applications]
 x-scheme-handler/x-github-client=github-desktop.desktop
 x-scheme-handler/x-github-desktop-auth=github-desktop.desktop
+inode/directory=org.kde.dolphin.desktop
+text/html=firefox-esr.desktop
+x-scheme-handler/http=firefox-esr.desktop
+x-scheme-handler/https=firefox-esr.desktop
+x-scheme-handler/about=firefox-esr.desktop
+x-scheme-handler/unknown=firefox-esr.desktop
+x-scheme-handler/defguard=defguard-client-handler.desktop
