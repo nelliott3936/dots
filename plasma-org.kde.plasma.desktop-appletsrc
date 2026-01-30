@@ -83,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][14][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][15]
 immutability=1
@@ -194,4 +194,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/steam.desktop,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa,desktop:/shimboot-main,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa
+screenMapping=desktop:/shimboot-main,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa,desktop:/steam.desktop,0,ed2cdce4-5642-474a-898a-7bbd23ca38aa
